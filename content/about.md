@@ -61,7 +61,8 @@ Technologies change. Markets mature. Principles endure. These standards shape ev
 
 Aurexus was founded by professionals who chose operational experience before building technology. That path—understanding how complex regulated environments actually function from the inside—shapes how we design, engineer and govern every ecosystem we develop.
 
-**Ade Balogun** — Founder  
+Leadership at Aurexus is organisational: accountable stewardship of engineering standards, responsible AI, information security and long-term product direction across the Group portfolio.
+
 Enquiries: [admin@aurexus-group.com](mailto:admin@aurexus-group.com)
 
 ---
