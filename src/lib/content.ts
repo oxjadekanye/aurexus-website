@@ -267,11 +267,11 @@ export const solutions = {
     },
     {
       name: "BeatIQ",
-      role: "Intelligent Music Technology Platform",
-      href: "https://www.beatiq.co.uk",
+      role: "AI-Powered Music Intelligence & Offline Media Ecosystem",
+      href: "/beatiq",
       logo: "/logos/beatiq.png",
       summary:
-        "An intelligent music technology platform combining AI, music technology and digital intelligence to support creators, producers, artists and the wider music industry.",
+        "A premium offline-first music experience built to organise, enhance and intelligently understand personal music libraries—Find Every Beat.",
       status: "Active",
     },
   ],

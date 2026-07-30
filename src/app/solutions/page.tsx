@@ -96,6 +96,9 @@ export default async function SolutionsPage() {
           <Button asChild size="lg" variant="outline">
             <Link href="/nptte">Explore NPTTE PharmaNG</Link>
           </Button>
+          <Button asChild size="lg" variant="outline">
+            <Link href="/beatiq">Explore BeatIQ</Link>
+          </Button>
         </div>
       </Section>
       <CtaBand

@@ -28,11 +28,11 @@ NPTTE PharmaNG is national-scale pharmaceutical transparency and enforcement inf
 
 [Explore NPTTE PharmaNG](/nptte)
 
-### BeatIQ — Intelligent Music Technology Platform
+### BeatIQ — AI-Powered Music Intelligence & Offline Media Ecosystem
 
-BeatIQ combines AI, music technology and digital intelligence to support creators, producers, artists and the wider music industry. It is positioned as Aurexus' platform for innovation within music technology and digital creative ecosystems.
+BeatIQ is a premium offline-first music experience designed to organise, enhance and intelligently understand personal music libraries. Tagline: Find Every Beat.
 
-[Visit www.beatiq.co.uk](https://www.beatiq.co.uk)
+[Explore BeatIQ](/beatiq) · [Visit www.beatiq.co.uk](https://www.beatiq.co.uk)
 
 ---
 

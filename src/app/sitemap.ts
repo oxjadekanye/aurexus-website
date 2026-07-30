@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/technology",
     "/bioaegix",
     "/nptte",
+    "/beatiq",
     "/ai-innovation",
     "/research",
     "/partnerships",
@@ -45,7 +46,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority:
         route === ""
           ? 1
-          : route === "/bioaegix" || route === "/nptte" || route === "/trust"
+          : route === "/bioaegix" ||
+              route === "/nptte" ||
+              route === "/beatiq" ||
+              route === "/trust"
             ? 0.9
             : 0.7,
     })),

@@ -133,7 +133,7 @@ export function HomePage({ insights = [] }: { insights?: InsightTeaser[] }) {
           light
           eyebrow="Product portfolio"
           title="Three ecosystems. One engineering standard."
-          description="BioAegix is our flagship Intelligent Healthcare Ecosystem. NPTTE PharmaNG is our National Pharmaceutical Traceability & Enforcement Platform. BeatIQ is our Intelligent Music Technology Platform."
+          description="BioAegix is our flagship Intelligent Healthcare Ecosystem. NPTTE PharmaNG is our National Pharmaceutical Traceability & Enforcement Platform. BeatIQ is our AI-powered music intelligence and offline media ecosystem."
         />
         <Stagger className="grid gap-6 md:grid-cols-3">
           {solutions.products.map((product) => {

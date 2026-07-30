@@ -91,7 +91,7 @@ export default function RootLayout({
       {
         "@type": "Brand",
         name: "BeatIQ",
-        url: siteConfig.products.beatiq,
+        url: `${siteConfig.url}/beatiq`,
       },
       {
         "@type": "Brand",
