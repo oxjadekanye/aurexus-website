@@ -22,9 +22,11 @@ An AI-powered digital healthcare ecosystem that securely connects healthcare pro
 
 [Explore BioAegix](/bioaegix)
 
-### NPTTE PharmaNG — Pharmaceutical and Professional Healthcare Ecosystem
+### NPTTE PharmaNG — National Pharmaceutical Traceability & Enforcement Platform
 
-NPTTE PharmaNG is one integrated platform. It is designed to modernise pharmaceutical services by digitally connecting pharmacies, healthcare professionals, patients and pharmaceutical operations—improving medicine accessibility, pharmacy operations, pharmaceutical services and digital healthcare delivery through intelligent technology.
+NPTTE PharmaNG is national-scale pharmaceutical transparency and enforcement infrastructure designed to strengthen medicine authenticity, regulatory visibility, supply-chain confidence and citizen safety across Nigeria.
+
+[Explore NPTTE PharmaNG](/nptte)
 
 ### BeatIQ — Intelligent Music Technology Platform
 

@@ -96,6 +96,7 @@ export default function RootLayout({
       {
         "@type": "Brand",
         name: "NPTTE PharmaNG",
+        url: `${siteConfig.url}/nptte`,
       },
     ],
   };

@@ -89,9 +89,12 @@ export default async function SolutionsPage() {
           title="Enterprise capabilities grounded in the Aurexus Method™"
         />
         <Prose html={doc.html} className="mx-auto max-w-3xl" />
-        <div className="mt-10 flex justify-center">
+        <div className="mt-10 flex flex-wrap justify-center gap-3">
           <Button asChild size="lg">
             <Link href="/bioaegix">Explore BioAegix</Link>
+          </Button>
+          <Button asChild size="lg" variant="outline">
+            <Link href="/nptte">Explore NPTTE PharmaNG</Link>
           </Button>
         </div>
       </Section>

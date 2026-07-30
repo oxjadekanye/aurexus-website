@@ -41,7 +41,7 @@ Aurexus Group Ltd is the parent technology company that researches, engineers, d
 | Platform | Positioning |
 |----------|-------------|
 | **BioAegix** | Flagship Intelligent Healthcare Ecosystem |
-| **NPTTE PharmaNG** | Pharmaceutical and Professional Healthcare Ecosystem (one integrated platform) |
+| **NPTTE PharmaNG** | National Pharmaceutical Traceability & Enforcement Platform · [Explore](/nptte) |
 | **BeatIQ** | Intelligent Music Technology Platform · [www.beatiq.co.uk](https://www.beatiq.co.uk) |
 
 Rather than creating disconnected applications, Aurexus engineers interconnected platforms that share common engineering principles: AI-first architecture, secure-by-design engineering, cloud-native scalability, intelligent automation, enterprise-grade security, human-centred experience, responsible AI, data-driven decision support and long-term innovation.

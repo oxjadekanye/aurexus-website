@@ -41,6 +41,11 @@ export const megaMenu: NavGroup[] = [
     items: [
       { href: "/solutions", label: "Solutions", description: "AI engineering & transformation" },
       { href: "/bioaegix", label: "BioAegix", description: "Flagship healthcare platform" },
+      {
+        href: "/nptte",
+        label: "NPTTE PharmaNG",
+        description: "National pharmaceutical infrastructure",
+      },
       { href: "/technology", label: "Technology", description: "Architecture & engineering" },
       { href: "/industries", label: "Industries", description: "Where we create value" },
     ],
@@ -90,6 +95,7 @@ export const footerNav = {
   solutions: [
     { href: "/solutions", label: "Solutions" },
     { href: "/bioaegix", label: "BioAegix" },
+    { href: "/nptte", label: "NPTTE PharmaNG" },
     { href: "/technology", label: "Technology" },
     { href: "/industries", label: "Industries" },
     { href: "/research", label: "Research" },

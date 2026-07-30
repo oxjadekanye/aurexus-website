@@ -258,11 +258,11 @@ export const solutions = {
     },
     {
       name: "NPTTE PharmaNG",
-      role: "Pharmaceutical and Professional Healthcare Ecosystem",
-      href: "/solutions#nptte-pharmang",
+      role: "National Pharmaceutical Traceability & Enforcement Platform",
+      href: "/nptte",
       logo: "/logos/nptte-pharmang.png",
       summary:
-        "One integrated platform designed to modernise pharmaceutical services by digitally connecting pharmacies, healthcare professionals, patients and pharmaceutical operations—improving medicine accessibility, pharmacy operations and digital healthcare delivery.",
+        "National-scale pharmaceutical transparency and enforcement infrastructure designed to strengthen medicine authenticity, regulatory visibility, supply-chain confidence and citizen safety.",
       status: "Active",
     },
     {
