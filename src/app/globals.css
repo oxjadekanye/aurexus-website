@@ -1,0 +1,151 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  --background: #f3f6fb;
+  --foreground: #0a1628;
+  --card: #ffffff;
+  --card-foreground: #0a1628;
+  --primary: #0b4f9c;
+  --primary-foreground: #f8fbff;
+  --secondary: #e7eef7;
+  --secondary-foreground: #0a1628;
+  --muted: #e2eaf4;
+  --muted-foreground: #4a5d78;
+  --accent: #1a6fc4;
+  --accent-foreground: #ffffff;
+  --border: #c8d4e4;
+  --ring: #0b4f9c;
+  --navy: #07111f;
+  --navy-soft: #0f1f36;
+  --silver: #9aabbf;
+  --steel: #6b7c93;
+  --surface: #ffffff;
+  --hero: #07111f;
+  --hero-foreground: #f5f8fc;
+  --radius: 0.75rem;
+}
+
+.dark {
+  --background: #060d18;
+  --foreground: #e8eef6;
+  --card: #0c1626;
+  --card-foreground: #e8eef6;
+  --primary: #3d8fdf;
+  --primary-foreground: #061018;
+  --secondary: #132033;
+  --secondary-foreground: #e8eef6;
+  --muted: #121e30;
+  --muted-foreground: #9aabbf;
+  --accent: #4fa0eb;
+  --accent-foreground: #061018;
+  --border: #1e2f47;
+  --ring: #4fa0eb;
+  --navy: #030810;
+  --navy-soft: #0b1524;
+  --silver: #8fa0b5;
+  --steel: #7d8fa6;
+  --surface: #0c1626;
+  --hero: #030810;
+  --hero-foreground: #f5f8fc;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-navy: var(--navy);
+  --color-navy-soft: var(--navy-soft);
+  --color-silver: var(--silver);
+  --color-steel: var(--steel);
+  --color-surface: var(--surface);
+  --color-hero: var(--hero);
+  --color-hero-foreground: var(--hero-foreground);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+  --radius-lg: var(--radius);
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), ui-sans-serif, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--primary) 32%, transparent);
+}
+
+.font-display {
+  font-family: var(--font-display), ui-sans-serif, sans-serif;
+}
+
+.surface-mesh {
+  background-color: var(--hero);
+  background-image:
+    radial-gradient(ellipse 80% 60% at 15% 20%, color-mix(in oklab, var(--accent) 35%, transparent), transparent 55%),
+    radial-gradient(ellipse 70% 50% at 85% 10%, color-mix(in oklab, var(--silver) 18%, transparent), transparent 50%),
+    radial-gradient(ellipse 60% 40% at 70% 90%, color-mix(in oklab, var(--primary) 28%, transparent), transparent 55%),
+    linear-gradient(165deg, var(--hero) 0%, var(--navy-soft) 45%, var(--navy) 100%);
+  color: var(--hero-foreground);
+}
+
+.surface-panel {
+  background:
+    linear-gradient(180deg, color-mix(in oklab, var(--card) 92%, transparent), color-mix(in oklab, var(--background) 96%, transparent)),
+    radial-gradient(ellipse 100% 80% at 0% 0%, color-mix(in oklab, var(--primary) 8%, transparent), transparent 50%);
+}
+
+.metal-line {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    color-mix(in oklab, var(--silver) 85%, transparent),
+    color-mix(in oklab, var(--primary) 65%, transparent),
+    color-mix(in oklab, var(--silver) 85%, transparent),
+    transparent
+  );
+}
+
+.focus-ring {
+  outline: none;
+}
+
+.focus-ring:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 3px;
+}
+
+.prose-aurexus {
+  --tw-prose-body: var(--muted-foreground);
+  --tw-prose-headings: var(--foreground);
+  --tw-prose-links: var(--primary);
+  --tw-prose-bold: var(--foreground);
+  --tw-prose-bullets: var(--primary);
+  --tw-prose-counters: var(--primary);
+  --tw-prose-hr: var(--border);
+  --tw-prose-quotes: var(--foreground);
+  --tw-prose-quote-borders: var(--primary);
+  --tw-prose-th-borders: var(--border);
+  --tw-prose-td-borders: var(--border);
+}
