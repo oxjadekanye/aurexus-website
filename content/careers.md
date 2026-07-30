@@ -72,7 +72,7 @@ In the meantime, we maintain a talent network for individuals who share our comm
 
 1. Send a brief introduction explaining your interest in Aurexus and the kind of contribution you would like to make
 2. Include relevant experience that demonstrates alignment with our principles—particularly operational understanding, engineering discipline, responsible AI or applied research
-3. Email [admin@bioaegix.com](mailto:admin@bioaegix.com) with the subject line "Talent Network — [Your Name]"
+3. Email [admin@aurexus-group.com](mailto:admin@aurexus-group.com) with the subject line "Talent Network — [Your Name]"
 
 We review every submission. If your profile aligns with a current or emerging need, we will be in touch. If not, we will acknowledge your interest and retain your details for future consideration—with your consent.
 

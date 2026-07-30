@@ -14,7 +14,7 @@ Suffolk, England, IP28 7DE
 
 ## Contact
 
-- **Enquiries:** [admin@bioaegix.com](mailto:admin@bioaegix.com)
+- **Enquiries:** [admin@aurexus-group.com](mailto:admin@aurexus-group.com)
 - **Website:** [https://www.aurexus-group.com](https://www.aurexus-group.com)
 - **BioAegix:** [https://www.bioaegix.com](https://www.bioaegix.com)
 - **BeatIQ:** [https://www.beatiq.co.uk](https://www.beatiq.co.uk)

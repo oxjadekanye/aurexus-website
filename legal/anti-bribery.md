@@ -88,7 +88,7 @@ All financial transactions must be accurately recorded. We maintain books, accou
 
 If you suspect or witness bribery or corruption — involving Aurexus personnel, clients, suppliers or partners — report it promptly:
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Subject line:** Anti-Bribery Report
 
 Reports are treated confidentially to the extent possible. We do not tolerate retaliation against good-faith reporters.
@@ -127,7 +127,7 @@ As an early-stage company, we implement these procedures proportionately and wil
 
 ## Contact
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Post:** Aurexus Group Ltd, Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE
 
 **Governing law:** England and Wales

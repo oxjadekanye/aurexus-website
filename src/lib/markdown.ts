@@ -3,13 +3,14 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
+import remarkGfm from "remark-gfm";
 import readingTime from "reading-time";
 import type { InsightArticle, MarkdownDoc } from "@/types";
 
 const root = process.cwd();
 
 async function toHtml(markdown: string) {
-  const result = await remark().use(html).process(markdown);
+  const result = await remark().use(remarkGfm).use(html).process(markdown);
   return result.toString();
 }
 

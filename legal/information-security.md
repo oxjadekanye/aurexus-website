@@ -138,7 +138,7 @@ We maintain procedures to:
 5. **Recover** — restore services, implement fixes
 6. **Learn** — post-incident review and control improvements
 
-Security incidents and suspected breaches must be reported immediately to admin@bioaegix.com with subject line "Security Incident".
+Security incidents and suspected breaches must be reported immediately to admin@aurexus-group.com with subject line "Security Incident".
 
 See our [Vulnerability Disclosure Policy](/legal/vulnerability-disclosure) for external reporting.
 
@@ -173,7 +173,7 @@ External security researchers should report vulnerabilities through our [Vulnera
 
 ## Contact
 
-**Security enquiries:** admin@bioaegix.com  
+**Security enquiries:** admin@aurexus-group.com  
 **Subject line:** Information Security  
 **Post:** Aurexus Group Ltd, Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE
 

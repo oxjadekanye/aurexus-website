@@ -128,7 +128,7 @@ This policy is reviewed at least annually. We will strengthen our environmental 
 
 ## Contact
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Subject line:** Environmental Enquiry  
 **Post:** Aurexus Group Ltd, Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE
 

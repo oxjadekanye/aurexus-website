@@ -161,7 +161,7 @@ This policy is reviewed at least annually and updated following significant chan
 
 ## Contact
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Post:** Aurexus Group Ltd, Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE
 
 **Governing law:** England and Wales

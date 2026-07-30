@@ -71,7 +71,7 @@ Some content on our website may be provided by third parties (embedded maps, vid
 
 We welcome feedback on the accessibility of our website and services. If you encounter a barrier or need information in an alternative format, please contact us:
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Subject line:** Accessibility Feedback  
 **Post:** Accessibility, Aurexus Group Ltd, Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE
 

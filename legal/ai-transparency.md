@@ -120,13 +120,13 @@ Our practices are designed to support client compliance in regulated sectors. Fi
 
 ## Your Rights
 
-Where AI processing involves personal data, you may have rights under UK GDPR, including the right to object, request human review of certain automated decisions, and obtain information about logic involved in processing. Contact admin@bioaegix.com or see our [GDPR Information](/legal/gdpr).
+Where AI processing involves personal data, you may have rights under UK GDPR, including the right to object, request human review of certain automated decisions, and obtain information about logic involved in processing. Contact admin@aurexus-group.com or see our [GDPR Information](/legal/gdpr).
 
 ## Reporting Concerns
 
 If you believe an AI feature is operating inappropriately, producing harmful outputs, or lacks adequate transparency:
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Subject line:** AI Transparency Concern
 
 We investigate reports promptly and proportionately.
@@ -137,7 +137,7 @@ We will update this statement as our AI capabilities, regulatory environment and
 
 ## Contact
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Post:** Aurexus Group Ltd, Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE
 
 **Governing law:** England and Wales

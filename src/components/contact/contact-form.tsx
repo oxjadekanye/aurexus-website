@@ -4,13 +4,14 @@ import { FormEvent, useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { siteConfig } from "@/lib/site";
 
-type Status = "idle" | "submitting" | "success" | "mailto" | "error";
+type Status = "idle" | "submitting" | "success" | "error";
 
 export function ContactForm() {
   const [status, setStatus] = useState<Status>("idle");
   const [error, setError] = useState<string | null>(null);
   const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
   const formStartedAt = useRef<number | null>(null);
+  const submittingRef = useRef(false);
 
   function ensureStartTime() {
     if (formStartedAt.current === null) {
@@ -20,10 +21,10 @@ export function ContactForm() {
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
+    if (submittingRef.current) return;
     ensureStartTime();
     setError(null);
     setFieldErrors({});
-    setStatus("submitting");
 
     const form = event.currentTarget;
     const data = new FormData(form);
@@ -51,6 +52,9 @@ export function ContactForm() {
       return;
     }
 
+    submittingRef.current = true;
+    setStatus("submitting");
+
     try {
       const response = await fetch("/api/contact", {
         method: "POST",
@@ -60,7 +64,6 @@ export function ContactForm() {
       const result = (await response.json()) as {
         ok?: boolean;
         mode?: string;
-        mailto?: string;
         error?: string;
         fallbackEmail?: string;
       };
@@ -74,18 +77,14 @@ export function ContactForm() {
         return;
       }
 
-      if (result.mode === "mailto" && result.mailto) {
-        window.location.href = result.mailto;
-        setStatus("mailto");
-        form.reset();
-        return;
-      }
-
       setStatus("success");
       form.reset();
+      formStartedAt.current = null;
     } catch {
       setStatus("error");
       setError(`Network error. Please email ${siteConfig.email.general} directly.`);
+    } finally {
+      submittingRef.current = false;
     }
   }
 
@@ -186,14 +185,11 @@ export function ContactForm() {
           Thank you. Your enquiry has been sent to Aurexus Group Ltd.
         </p>
       ) : null}
-      {status === "mailto" ? (
-        <p className="rounded-lg border border-border bg-secondary/60 px-4 py-3 text-sm" role="status">
-          Your email client should open with a draft to {siteConfig.email.general}. If it does not,
-          please send your message to that address directly.
-        </p>
-      ) : null}
       {status === "error" && error ? (
-        <p className="rounded-lg border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-700 dark:text-red-300" role="alert">
+        <p
+          className="rounded-lg border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-700 dark:text-red-300"
+          role="alert"
+        >
           {error}
         </p>
       ) : null}

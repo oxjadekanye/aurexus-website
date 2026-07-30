@@ -166,7 +166,7 @@ Aurexus welcomes responsible disclosure of security vulnerabilities.
 - Timely remediation of confirmed vulnerabilities
 - Transparent communication with affected partners
 
-**Reporting:** Security researchers and partners who identify potential vulnerabilities should contact [admin@bioaegix.com](mailto:admin@bioaegix.com) with the subject line "Security Disclosure."
+**Reporting:** Security researchers and partners who identify potential vulnerabilities should contact [admin@aurexus-group.com](mailto:admin@aurexus-group.com) with the subject line "Security Disclosure."
 
 ---
 
@@ -185,7 +185,7 @@ Aurexus welcomes responsible disclosure of security vulnerabilities.
 
 ## Questions
 
-For trust, security or compliance enquiries, contact [admin@bioaegix.com](mailto:admin@bioaegix.com).
+For trust, security or compliance enquiries, contact [admin@aurexus-group.com](mailto:admin@aurexus-group.com).
 
 Detailed controls documentation is available to partner organisations under appropriate confidentiality arrangements.
 

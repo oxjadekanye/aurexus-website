@@ -44,7 +44,7 @@ You may use this procedure to raise concerns about:
 
 ### Email (preferred)
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Subject line:** Complaint — [brief description]
 
 ### Post
@@ -53,7 +53,7 @@ Complaints, Aurexus Group Ltd, Unit A, 82 James Carter Road, Mildenhall, Bury St
 
 ### Partnership-related complaints
 
-**Email:** admin@bioaegix.com
+**Email:** admin@aurexus-group.com
 
 ## Information to Include
 
@@ -105,7 +105,7 @@ Our response will include:
 
 If you are not satisfied with our Stage 3 response, you may request escalation within **20 business days** of receiving it.
 
-Escalation requests should be sent to admin@bioaegix.com with subject line "Complaint Escalation — [reference]".
+Escalation requests should be sent to admin@aurexus-group.com with subject line "Complaint Escalation — [reference]".
 
 Escalated complaints are reviewed by senior leadership not previously involved in the investigation. We aim to respond within **20 business days**.
 
@@ -151,7 +151,7 @@ You may use this complaints procedure alongside those channels.
 
 ## Contact Summary
 
-**General complaints:** admin@bioaegix.com  
+**General complaints:** admin@aurexus-group.com  
 **Post:** Complaints, Aurexus Group Ltd, Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE
 
 **Governing law:** England and Wales

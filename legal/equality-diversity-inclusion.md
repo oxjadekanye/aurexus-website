@@ -126,7 +126,7 @@ Requests are handled sensitively and promptly. We consult the individual about t
 
 If you experience or witness discrimination, harassment or other EDI concerns:
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Subject line:** EDI Concern
 
 Reports are treated seriously and investigated promptly and fairly. Confidentiality is maintained to the extent possible.
@@ -155,7 +155,7 @@ This policy is reviewed at least annually and updated following significant orga
 
 ## Contact
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Post:** Aurexus Group Ltd, Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE
 
 **Governing law:** England and Wales

@@ -15,7 +15,7 @@ export const siteConfig = {
     line3: "Suffolk, England, IP28 7DE",
   },
   email: {
-    general: "admin@bioaegix.com",
+    general: "admin@aurexus-group.com",
   },
   products: {
     bioaegix: "https://www.bioaegix.com",

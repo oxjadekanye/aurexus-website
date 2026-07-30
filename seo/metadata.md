@@ -65,7 +65,7 @@ follow: true
 | name | Aurexus Group Ltd |
 | url | https://www.aurexus-group.com |
 | logo | https://www.aurexus-group.com/logos/aurexus-full.png |
-| email | admin@bioaegix.com |
+| email | admin@aurexus-group.com |
 | identifier | 17152745 |
 | product.BioAegix.url | https://www.bioaegix.com |
 | product.BeatIQ.url | https://www.beatiq.co.uk |

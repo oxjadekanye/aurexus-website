@@ -11,8 +11,20 @@ type ContactBody = {
   formStartedAt?: number;
 };
 
+const CONTACT_TO_EMAIL =
+  process.env.CONTACT_TO_EMAIL?.trim() || siteConfig.email.general;
+
 function isEmail(value: string) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+}
+
+/** Strip control characters and normalise whitespace for safe plain-text email bodies. */
+function sanitize(value: string, maxLength: number) {
+  return value
+    .replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F\u007F]/g, "")
+    .replace(/\r\n?/g, "\n")
+    .trim()
+    .slice(0, maxLength);
 }
 
 export async function POST(request: Request) {
@@ -37,22 +49,22 @@ export async function POST(request: Request) {
     );
   }
 
-  const name = String(body.name ?? "").trim();
-  const email = String(body.email ?? "").trim();
-  const organisation = String(body.organisation ?? "").trim();
-  const interest = String(body.interest ?? "General enquiry").trim();
-  const message = String(body.message ?? "").trim();
+  const name = sanitize(String(body.name ?? ""), 120);
+  const email = sanitize(String(body.email ?? ""), 200);
+  const organisation = sanitize(String(body.organisation ?? ""), 200);
+  const interest = sanitize(String(body.interest ?? "General enquiry"), 120) || "General enquiry";
+  const message = sanitize(String(body.message ?? ""), 5000);
 
-  if (name.length < 2 || name.length > 120) {
+  if (name.length < 2) {
     return NextResponse.json({ ok: false, error: "Please enter your full name." }, { status: 400 });
   }
-  if (!isEmail(email) || email.length > 200) {
+  if (!isEmail(email)) {
     return NextResponse.json(
       { ok: false, error: "Please enter a valid work email address." },
       { status: 400 },
     );
   }
-  if (message.length < 10 || message.length > 5000) {
+  if (message.length < 10) {
     return NextResponse.json(
       { ok: false, error: "Please enter a message between 10 and 5,000 characters." },
       { status: 400 },
@@ -69,10 +81,21 @@ export async function POST(request: Request) {
     message,
   ].join("\n");
 
-  const resendKey = process.env.RESEND_API_KEY;
-  const fromAddress = process.env.CONTACT_FROM_EMAIL ?? "onboarding@resend.dev";
+  const resendKey = process.env.RESEND_API_KEY?.trim();
+  const fromAddress = process.env.CONTACT_FROM_EMAIL?.trim();
 
-  if (resendKey) {
+  if (!resendKey || !fromAddress) {
+    return NextResponse.json(
+      {
+        ok: false,
+        error: `Online delivery is temporarily unavailable. Please email ${CONTACT_TO_EMAIL} directly.`,
+        fallbackEmail: CONTACT_TO_EMAIL,
+      },
+      { status: 503 },
+    );
+  }
+
+  try {
     const response = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: {
@@ -81,7 +104,7 @@ export async function POST(request: Request) {
       },
       body: JSON.stringify({
         from: fromAddress,
-        to: [siteConfig.email.general],
+        to: [CONTACT_TO_EMAIL],
         reply_to: email,
         subject,
         text,
@@ -92,23 +115,22 @@ export async function POST(request: Request) {
       return NextResponse.json(
         {
           ok: false,
-          error: "We could not send your message right now. Please email us directly.",
-          fallbackEmail: siteConfig.email.general,
+          error: `We could not send your message right now. Please email ${CONTACT_TO_EMAIL} directly.`,
+          fallbackEmail: CONTACT_TO_EMAIL,
         },
         { status: 502 },
       );
     }
 
     return NextResponse.json({ ok: true, mode: "email" });
+  } catch {
+    return NextResponse.json(
+      {
+        ok: false,
+        error: `We could not send your message right now. Please email ${CONTACT_TO_EMAIL} directly.`,
+        fallbackEmail: CONTACT_TO_EMAIL,
+      },
+      { status: 502 },
+    );
   }
-
-  // Real fallback path when no mail provider is configured: return a mailto URL
-  const mailto = `mailto:${siteConfig.email.general}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;
-
-  return NextResponse.json({
-    ok: true,
-    mode: "mailto",
-    mailto,
-    fallbackEmail: siteConfig.email.general,
-  });
 }

@@ -50,7 +50,7 @@ Aurexus logos and brand assets may not be used without prior written consent, ex
 
 To request logo usage permission:
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Subject line:** Trademark / Logo Usage Request
 
 Include intended use, medium, duration and mock-ups where available.
@@ -84,7 +84,7 @@ References on our website or in our materials to third-party trademarks — incl
 
 If you become aware of unauthorised use of Aurexus trademarks:
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Subject line:** Trademark Misuse Report
 
 We investigate reports and take appropriate action to protect our brand integrity.
@@ -99,7 +99,7 @@ This notice may be updated as our trademark portfolio evolves. The "last updated
 
 ## Contact
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Post:** Aurexus Group Ltd, Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE
 
 **Governing law:** England and Wales

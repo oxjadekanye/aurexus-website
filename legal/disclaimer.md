@@ -88,7 +88,7 @@ This disclaimer is governed by the laws of England and Wales. Disputes shall be 
 
 ## Contact
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Post:** Aurexus Group Ltd, Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE
 
 ## Related Documents

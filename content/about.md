@@ -62,7 +62,7 @@ Technologies change. Markets mature. Principles endure. These standards shape ev
 Aurexus was founded by professionals who chose operational experience before building technology. That path—understanding how complex regulated environments actually function from the inside—shapes how we design, engineer and govern every ecosystem we develop.
 
 **Ade Balogun** — Founder  
-Enquiries: [admin@bioaegix.com](mailto:admin@bioaegix.com)
+Enquiries: [admin@aurexus-group.com](mailto:admin@aurexus-group.com)
 
 ---
 

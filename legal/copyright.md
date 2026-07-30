@@ -68,7 +68,7 @@ If you believe content on our website infringes your copyright, contact us with:
 - A statement of good-faith belief that use is not authorised
 - A statement that information provided is accurate and you are authorised to act
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Subject line:** Copyright Notice
 
 ## Fair Dealing
@@ -85,7 +85,7 @@ We may update this notice from time to time. The "last updated" date indicates w
 
 ## Contact
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Post:** Aurexus Group Ltd, Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE
 
 **Governing law:** England and Wales

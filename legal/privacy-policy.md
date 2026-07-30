@@ -20,7 +20,7 @@ This policy describes the corporate website only. Platform-specific privacy noti
 **Company number:** 17152745  
 **Registered office:** Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE  
 **Website:** [https://www.aurexus-group.com](https://www.aurexus-group.com)  
-**Email:** admin@bioaegix.com
+**Email:** admin@aurexus-group.com
 
 Aurexus Group Ltd is the parent technology company responsible for researching, engineering, developing and operating its product portfolio, including BioAegix (flagship intelligent healthcare ecosystem), NPTTE PharmaNG and BeatIQ ([https://www.beatiq.co.uk](https://www.beatiq.co.uk)).
 
@@ -103,7 +103,7 @@ We primarily intend to store and process website-related data in the United King
 
 Under UK GDPR, you have rights of access, rectification, erasure, restriction, objection and (where applicable) data portability, as well as the right to withdraw consent where processing is consent-based. You may also complain to the Information Commissioner's Office (ICO): [https://ico.org.uk](https://ico.org.uk).
 
-To exercise your rights, contact admin@bioaegix.com.
+To exercise your rights, contact admin@aurexus-group.com.
 
 ## Cookies and Similar Technologies
 
@@ -115,7 +115,7 @@ This Privacy Policy is an informational notice describing our practices. It does
 
 ## Contact
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Post:** Aurexus Group Ltd, Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE  
 
 **Governing law:** England and Wales.

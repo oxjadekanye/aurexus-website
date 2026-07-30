@@ -102,7 +102,7 @@ export default async function ContactPage() {
             <div className="rounded-3xl border border-border bg-card p-6 md:p-8">
               <h2 className="font-display text-2xl font-semibold tracking-tight">Send a message</h2>
               <p className="mt-2 text-sm text-muted-foreground">
-                Submitting opens your email client with a drafted enquiry to Aurexus.
+                Your enquiry is delivered securely to Aurexus Group Ltd. We aim to respond promptly.
               </p>
               <div className="mt-8">
                 <ContactForm />

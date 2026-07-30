@@ -89,7 +89,7 @@ Leadership and personnel involved in procurement and supplier management are mad
 
 Anyone who suspects modern slavery or human trafficking connected to Aurexus should report it immediately:
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Subject line:** Modern Slavery Concern
 
 Reports are treated seriously and investigated appropriately. We will not penalise good-faith reporters.
@@ -114,7 +114,7 @@ It will be reviewed and updated annually.
 
 ## Contact
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Post:** Aurexus Group Ltd, Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE
 
 **Governing law:** England and Wales

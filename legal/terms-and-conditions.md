@@ -18,7 +18,7 @@ These Conditions apply unless superseded by a signed master services agreement, 
 **Company number:** 17152745  
 **Registered office:** Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE  
 **Website:** [https://www.aurexus-group.com](https://www.aurexus-group.com)  
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 
 ## Services and Products
 
@@ -167,5 +167,5 @@ These Conditions are governed by the laws of England and Wales.
 
 ## Contact
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Post:** Aurexus Group Ltd, Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE

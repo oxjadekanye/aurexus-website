@@ -104,7 +104,7 @@ Monitoring is conducted proportionately and in accordance with our [Privacy Poli
 
 To report suspected violations of this policy:
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Subject line:** Acceptable Use Report
 
 Include relevant details, timestamps and evidence where available. Do not include unnecessary personal data.
@@ -131,5 +131,5 @@ This policy is governed by the laws of England and Wales.
 
 ## Contact
 
-**Email:** admin@bioaegix.com  
+**Email:** admin@aurexus-group.com  
 **Post:** Aurexus Group Ltd, Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE

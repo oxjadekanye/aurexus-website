@@ -149,3 +149,23 @@ body {
   --tw-prose-th-borders: var(--border);
   --tw-prose-td-borders: var(--border);
 }
+
+.prose-aurexus :where(table) {
+  width: 100%;
+  font-size: 0.925rem;
+  border-collapse: collapse;
+}
+
+.prose-aurexus :where(th),
+.prose-aurexus :where(td) {
+  padding: 0.65rem 0.85rem;
+  border: 1px solid var(--border);
+  text-align: left;
+  vertical-align: top;
+}
+
+.prose-aurexus :where(th) {
+  background: color-mix(in oklab, var(--secondary) 80%, transparent);
+  color: var(--foreground);
+  font-weight: 600;
+}

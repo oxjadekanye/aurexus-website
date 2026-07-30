@@ -34,7 +34,7 @@ We aim to respond to all enquiries promptly. For partnership and enterprise disc
 
 | Purpose | Email |
 |---------|-------|
-| **All enquiries** | [admin@bioaegix.com](mailto:admin@bioaegix.com) |
+| **All enquiries** | [admin@aurexus-group.com](mailto:admin@aurexus-group.com) |
 
 ## Product websites
 

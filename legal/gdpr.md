@@ -18,7 +18,7 @@ It supplements our [Privacy Policy](/legal/privacy-policy), which contains detai
 **Company number:** 17152745  
 **Registered office:** Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE  
 **Website:** [https://www.aurexus-group.com](https://www.aurexus-group.com)  
-**Contact:** admin@bioaegix.com
+**Contact:** admin@aurexus-group.com
 
 Aurexus is generally the data controller for personal data processed through our corporate website, enquiries, partnerships and direct client relationships.
 
@@ -76,7 +76,7 @@ Individuals whose personal data we process have the following rights:
 | **Objection** | Object to processing based on legitimate interests or direct marketing |
 | **Automated decision-making** | Not be subject to solely automated decisions with significant effects, except where permitted with safeguards |
 
-To exercise rights, email admin@bioaegix.com. We respond within one month, extendable by two months for complex requests with notification.
+To exercise rights, email admin@aurexus-group.com. We respond within one month, extendable by two months for complex requests with notification.
 
 We may request identity verification. We do not charge fees except for manifestly unfounded or excessive requests.
 
@@ -157,7 +157,7 @@ We will appoint a Data Protection Officer if required by UK GDPR criteria as we 
 
 ## Contact
 
-**Data protection enquiries:** admin@bioaegix.com  
+**Data protection enquiries:** admin@aurexus-group.com  
 **Post:** Data Protection, Aurexus Group Ltd, Unit A, 82 James Carter Road, Mildenhall, Bury St. Edmunds, Suffolk, England, IP28 7DE
 
 **Governing law:** England and Wales
